@@ -13,7 +13,7 @@ class CatImageManager: ObservableObject {
     @Published var image: UIImage?
     
     func getCatImage() {
-        let apiURL = URL(string: "https://cataas.com/c")!
+        let apiURL = URL(string: "https://thiscatdoesnotexist.com/")!
         let request = URLRequest(url: apiURL)
         
         image = nil 
