@@ -11,6 +11,11 @@
 		99EC31C226E3026F00A65FC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EC31C126E3026F00A65FC9 /* ContentView.swift */; };
 		99EC31C426E3027500A65FC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EC31C326E3027500A65FC9 /* Assets.xcassets */; };
 		99EC31C726E3027500A65FC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EC31C626E3027500A65FC9 /* Preview Assets.xcassets */; };
+		99EC31CF26E302C400A65FC9 /* CatFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EC31CE26E302C400A65FC9 /* CatFactView.swift */; };
+		99EC31D126E3045900A65FC9 /* CatImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EC31D026E3045900A65FC9 /* CatImageView.swift */; };
+		99EC31D326E3053200A65FC9 /* CatFactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EC31D226E3053200A65FC9 /* CatFactManager.swift */; };
+		99EC31D526E3068700A65FC9 /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EC31D426E3068700A65FC9 /* CatFact.swift */; };
+		99EC31D726E3093000A65FC9 /* CatImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EC31D626E3093000A65FC9 /* CatImageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		99EC31C326E3027500A65FC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99EC31C626E3027500A65FC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		99EC31C826E3027500A65FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99EC31CE26E302C400A65FC9 /* CatFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactView.swift; sourceTree = "<group>"; };
+		99EC31D026E3045900A65FC9 /* CatImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageView.swift; sourceTree = "<group>"; };
+		99EC31D226E3053200A65FC9 /* CatFactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactManager.swift; sourceTree = "<group>"; };
+		99EC31D426E3068700A65FC9 /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
+		99EC31D626E3093000A65FC9 /* CatImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 			children = (
 				99EC31BF26E3026F00A65FC9 /* CatsApp.swift */,
 				99EC31C126E3026F00A65FC9 /* ContentView.swift */,
+				99EC31CE26E302C400A65FC9 /* CatFactView.swift */,
+				99EC31D626E3093000A65FC9 /* CatImageManager.swift */,
+				99EC31D426E3068700A65FC9 /* CatFact.swift */,
+				99EC31D026E3045900A65FC9 /* CatImageView.swift */,
+				99EC31D226E3053200A65FC9 /* CatFactManager.swift */,
 				99EC31C326E3027500A65FC9 /* Assets.xcassets */,
 				99EC31C826E3027500A65FC9 /* Info.plist */,
 				99EC31C526E3027500A65FC9 /* Preview Content */,
@@ -139,7 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				99EC31C226E3026F00A65FC9 /* ContentView.swift in Sources */,
+				99EC31CF26E302C400A65FC9 /* CatFactView.swift in Sources */,
+				99EC31D526E3068700A65FC9 /* CatFact.swift in Sources */,
+				99EC31D326E3053200A65FC9 /* CatFactManager.swift in Sources */,
+				99EC31D726E3093000A65FC9 /* CatImageManager.swift in Sources */,
 				99EC31C026E3026F00A65FC9 /* CatsApp.swift in Sources */,
+				99EC31D126E3045900A65FC9 /* CatImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
